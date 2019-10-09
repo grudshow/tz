@@ -19,7 +19,7 @@ class realization
             if($D == 0){
                 echo "x = " . (-$b)/(2*$a) . "<br>";
             }
-            else{
+            if($D > 0){
                 echo "x<sub>1</sub> = " . (-$b - sqrt($D))/(2*$a) . "<br>";
                 echo "x<sub>2</sub> = " . (-$b + sqrt($D))/(2*$a) . "<br>";
             }
